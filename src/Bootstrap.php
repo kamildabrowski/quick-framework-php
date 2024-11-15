@@ -1,14 +1,14 @@
 <?php namespace app;
 
-use \App\FormHero as FormHero;
 class Bootstrap {
     public static function run() {
 
-        $form = new FormHero\Form();
-        $selct = $form->select('form-test');
-        $selct->setSelected([true, false]);
-        $selct->setClass('active');
+        // HERE ALL YOUR CODES 
 
+        // Ex. $routes = new \App\Routes(); 
+        // Ex. $controller = new \App\Controller($routes);
+        // Ex. $view = new \App\View($controller);
+        // echo $view;
 
         echo 'works';
     }
